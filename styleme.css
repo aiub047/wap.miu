@@ -1,0 +1,22 @@
+body {
+    background-color: #5A5547;
+    color: white;
+    font-family: "Times New Roman", Arial, "Arial Black", Verdana, "Trebuchet MS", Georgia, Tahoma, Courier, serif;
+}
+
+h1, h2, h3 {
+    color: #99C4FF;
+}
+
+a {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
