@@ -31,7 +31,7 @@
         }
 
         .header-main {
-            margin: 0px auto;
+            margin: 0 auto;
             width: 980px;
             height: auto;
             display: flex;
@@ -59,7 +59,7 @@
         }
 
         .content {
-            margin: 0px auto;
+            margin: 0 auto;
             width: 980px;
             height: auto;
         }
@@ -92,12 +92,12 @@
 
         .input-field input {
             width: 230px;
-            padding: 3px 0px;
+            padding: 3px 0;
         }
 
         .input-field select {
             width: 235px;
-            padding: 4px 0px;
+            padding: 4px 0;
         }
 
         .input-field span {
@@ -254,8 +254,8 @@
                 <div class="right-content">
                     <p><a href="#">Lunch</a></p>
                     <div class="input-field">
-                        <label for="meal">Meal Preference </label>
-                        <select id="country" name="country">
+                        <label for="foods">Meal Preference </label>
+                        <select id="foods" name="country">
                             <option value="vegetarian">Vegetarian</option>
                             <option value="Meditarian">Meditarian</option>
                             <option value="Nonveg">Non-veg</option>
@@ -263,10 +263,13 @@
                     </div>
                     <div class="input-field">
                         <p><a href="#">Payment Details</a></p>
-                        <label for="mode">Payment Mode</label>
+                        <label for="cash">Payment Mode</label>
+
                         <input type="checkbox" id="cash" name="cash">Cash<br>
-                        <input class="space" type="checkbox" id="check" name="check">Check<br>
-                        <input class="space" type="checkbox" id="demand-draft" name="demand-draft">Demand Draft
+                        <label for="check"></label><input class="space" type="checkbox" id="check"
+                                                          name="check">Check<br>
+                        <label for="demand-draft"></label><input class="space" type="checkbox" id="demand-draft"
+                                                                 name="demand-draft">Demand Draft
                     </div>
                     <div class="input-field">
                         <label for="chequeno">DD/ Cheque No.</label>
